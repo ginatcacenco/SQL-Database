@@ -16,10 +16,10 @@ telephone **VARCHAR(30)** <br>
 ## -- Insert values into the employees table
 **insert into** employees <br> 
 **values** (1, "Scott Johnson", "2020-05-11", "manager", "scott.johnson@gmail.com", "0754545333"), <br>
-	   	(2, "Tom Peterson", "2020-06-12", "hr specialist", "tom.peterson@gmail.com", "0752123123"), <br>
-           	(3, "Jane Smith", "2020-06-19", "saleswoman", "jane.smith@yahoo.com", "0764252525"), <br>
-           	(4, "Kate Wilson", "2021-03-03", "saleswoman", "wilson.kate@yahoo.com", "0712897883"), <br>
-           	(5, "Bob Griffin", "2021-09-06", "salesman", "bob.griffin@gmail.com", "0723656578"); <br>
+	   (2, "Tom Peterson", "2020-06-12", "hr specialist", "tom.peterson@gmail.com", "0752123123"), <br>
+           (3, "Jane Smith", "2020-06-19", "saleswoman", "jane.smith@yahoo.com", "0764252525"), <br>
+           (4, "Kate Wilson", "2021-03-03", "saleswoman", "wilson.kate@yahoo.com", "0712897883"), <br>
+           (5, "Bob Griffin", "2021-09-06", "salesman", "bob.griffin@gmail.com", "0723656578"); <br>
 
 ## -- Search for email addresses with "yahoo.com" domain
 **select** * **from** employees <br>
@@ -50,10 +50,10 @@ work_telephone **VARCHAR(30)**, <br>
 ## -- Insert values into the emergency_contacts table
 **insert into** emergency_contacts <br>
 **values** (1, "Jane Johnson", "wife", "+4023115779", "0756999313", "+4023123456"), <br>
-	   	(2, "John Peterson", "father", "+402555777", "0756999313", "-"), <br>
-           	(3, "Maggie Robinson", "sister", "-", "0756784874", "+4023556789"), <br>
-           	(4, "Chelsea Bing", "friend", "-", "0757443212", "-"), <br>
-           	(5, "Jim Anderson", "flatmate", "+4023323214", "0753456456", "+4023199199");
+	   		(2, "John Peterson", "father", "+402555777", "0756999313", "-"), <br>
+           		(3, "Maggie Robinson", "sister", "-", "0756784874", "+4023556789"), <br>
+           		(4, "Chelsea Bing", "friend", "-", "0757443212", "-"), <br>
+           		(5, "Jim Anderson", "flatmate", "+4023323214", "0753456456", "+4023199199");
 
 ## -- Drop foreign key
 **alter table** emergency_contacts <br>
