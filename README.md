@@ -1,7 +1,7 @@
 # SQL-Database
 # --  Create a database called Orangehrm
-create database orangehrm;
-use orangehrm;
+**create database** orangehrm;
+**use** orangehrm;
 
 # /*Create a table of employees containing the following fields: employee_id, employee_name, hire_date, job_title, email_address, telephone*/
 create table employees (
