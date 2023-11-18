@@ -28,14 +28,14 @@ telephone **VARCHAR(30)** <br>
 ## /* Change email addresses from "yahoo.com" to "gmail.com" so that all employees have the address gmail.com domain */
 **update** employees <br>
 **set** email_address = "jane.smith@gmail.com" <br>
-**where** employee_id = 3; <br>
+**where** employee_id = 3; <br> 
 **update** employees <br>
 **set** email_address = "kate.wilson@gmail.com" <br>
 **where** employee_name = "Kate Wilson"; <br>
 **SET** SQL_SAFE_UPDATES = 0;
 
-## /* Create table emergency_contacts containing the following fields: employee_id, emergency_contact_name, relationship, home_telephone, mobile, work_telephone. Link this table to the previous table by using a 
-## foreign key (via employee_id) */
+## /* Create table emergency_contacts containing the following fields: employee_id, emergency_contact_name, relationship, home_telephone, mobile, work_telephone. 
+## Link this table to the previous table by using a foreign key (via employee_id) */
 
 **create table** emergency_contacts ( <br>
 employee_id **INT PRIMARY KEY auto_increment NOT NULL**, <br>
