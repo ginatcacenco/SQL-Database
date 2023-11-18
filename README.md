@@ -15,7 +15,7 @@ telephone **VARCHAR(30)** <br>
 
 ## -- Insert values into the employees table
 **insert into** employees <br> 
-**values** <dd>(1, "Scott Johnson", "2020-05-11", "manager", "scott.johnson@gmail.com", "0754545333"), <br>
+**values** (1, "Scott Johnson", "2020-05-11", "manager", "scott.johnson@gmail.com", "0754545333"), <br>
 	   <dd>(2, "Tom Peterson", "2020-06-12", "hr specialist", "tom.peterson@gmail.com", "0752123123"), <br>
            <dd>(3, "Jane Smith", "2020-06-19", "saleswoman", "jane.smith@yahoo.com", "0764252525"), <br>
            <dd>(4, "Kate Wilson", "2021-03-03", "saleswoman", "wilson.kate@yahoo.com", "0712897883"), <br>
